@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  width: 50%;
+  justify-content: center;
+}
+
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  
+}
+
+button {
+  background-color: #4CAF50;
+  color: orange;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+}
